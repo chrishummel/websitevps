@@ -10,6 +10,11 @@ app.get("/", function(req,res){
 	res.sendFile('index')
 })
 
+app.get("/aboutme", function(req,res){
+	res.status(200);
+	res.sendFile('index')
+})
+
 var port = process.env.PORT || 3468;
 app.listen(port);
 console.log("Listening on: ", port)
