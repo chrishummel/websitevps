@@ -1,0 +1,355 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+/*
+*
+Author: Joefrey Mahusay 
+Website: webdesignhabits.com
+Template Name: Mighty
+*
+*/
+
+/*--------------------------
+RESET
+---------------------------*/
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, 
+b, u, i, center, 
+dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary, 
+time, mark, audio, video{margin:0; padding:0}
+article, aside, details, figcaption, figure, footer, 
+header, hgroup, menu, nav, section{display:block}
+
+table{border-collapse:collapse; border-spacing:0}
+fieldset, img{border:0}
+address, caption, cite, dfn, th, var{font-style:normal; font-weight:normal}
+caption, th{text-align:left}
+h1, h2, h3, h4, h5, h6{font-size:100%; font-weight:normal}1
+q:before, q:after{content:''}
+abbr, acronym{border:0}
+
+
+/*--------------------------
+LAYOUT STRUCTURE
+---------------------------*/
+body{ 
+	font-family: 'Open Sans', sans-serif; 
+	font-size:13px;
+	line-height:22px;
+	color:#444444;
+	padding:0 0;
+	-webkit-transition-duration: 400ms; -webkit-transition-property: padding-left, padding-right; -webkit-transition-timing-function: ease; -moz-transition-duration: 400ms; -moz-transition-property: padding-left, padding-right;	-moz-transition-timing-function: ease; -o-transition-duration: 400ms; -o-transition-property: padding-left, padding-right; -o-transition-timing-function: ease;
+}
+a, a:link{
+	color:#91c967;
+	text-decoration:none;
+}
+a:hover{
+	color:#000;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	margin-bottom:20px;
+	
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:300;
+	
+}
+
+h1 {
+	font-size:30px;
+	line-height:1.7em;
+}
+h2 {
+	line-height:1.3em;
+}
+h3 {
+	font-size:22px;
+	line-height:1.3em;
+}
+h4 {
+	font-size:18px;	
+	line-height:1.3em;
+}
+h5 {
+	font-size:14px;	
+	line-height:1.3em;
+}
+h6 {
+	font-size:12px;	
+	line-height:1.3em;
+}
+
+img {
+	max-width:100%; 
+}
+
+.more {
+	background:url(../images/arrow.gif) no-repeat right 50%;
+	padding-right:20px;
+}
+
+
+header, #slider-container, #main-content, footer {
+	margin:0 auto; /* make the container to center */
+	max-width:978px; /* responsive/flexible */
+}
+header {
+	margin-top:68px;
+	border-bottom:1px solid #e5e4e4;
+	min-height:100px;
+	margin-bottom:40px;
+}
+header #logo {
+	
+	width:111px;
+	height:30px;
+	float:left;
+}
+header #logo a {
+	
+	display:block;
+	width:111px;
+	height:30px;
+}
+header .main-nav {
+	margin-top:-15px;
+	float:left;
+	margin-left:18.9%;
+	-webkit-transition-duration: 400ms; -webkit-transition-property: margin-left; -webkit-transition-timing-function: ease; -moz-transition-duration: 400ms; -moz-transition-property: margin-left;	-moz-transition-timing-function: ease; -o-transition-duration: 400ms; -o-transition-property: margin-left; -o-transition-timing-function: ease;
+}
+header .main-nav ul li {
+	list-style:none;
+}
+header .main-nav ul > li {
+	float:left;
+	width:140px;
+}
+header .main-nav ul > li.last{
+	width:90px;
+}
+header .main-nav ul li ul  li {
+	display:block!important;
+}
+header .main-nav ul li a {
+	color:#555555;
+}
+header .main-nav ul li a:hover,
+header .main-nav ul li a.selected {
+	color:#91c967;
+} 
+
+/*for Search*/
+header #searchform {
+	float:right;
+	margin-top:10px;
+} 
+header #searchform #s {
+	border:1px solid #cecece;
+	width:16px;
+	-webkit-border-radius:40px;
+	-moz-border-radius:40px;
+	-o-border-radius:40px;
+	border-radius:40px;
+	padding:10px;
+	background:#e2e2e2 url(../images/magnify.png) no-repeat  50% 50%;
+	-webkit-transition-duration: 400ms; -webkit-transition-property: width, background; -webkit-transition-timing-function: ease; -moz-transition-duration: 400ms; -moz-transition-property: width, background;	-moz-transition-timing-function: ease; -o-transition-duration: 400ms; -o-transition-property: width, background; -o-transition-timing-function: ease;
+	cursor:pointer;
+	color:#4b4b4b;
+	text-indent:-999999px;
+}
+header #searchform #s:focus {
+	outline:none;
+	background:#e2e2e2 url(../images/magnify.png) no-repeat 10% 50%;
+	padding-left:34px;
+	width:100px;
+	text-indent:0px;
+	
+}
+
+
+#slider-container {
+	clear:both;
+}
+
+#main-content {
+}
+
+
+#main-content .text-intro {
+	border-bottom:1px solid #e5e4e4;
+	float:left;
+	width:100%;
+	padding:20px 0; 
+	margin-bottom:40px;
+}
+#main-content .text-intro h2 {
+	font-size:40px;
+	color:#606060;
+	text-align:center;
+	font-weight:300;
+}
+
+#main-content .text-intro p {
+	text-align: center;
+}
+
+div.columns{height: 1%;}
+div.one-half{width:48.5%}
+div.one-third{width:31.3%}
+div.two-third{width:65.64%}
+div.one-fourth{width:22.7%;}
+div.three-fourth{width:74.23%}
+div.one-half, div.one-third, div.two-third, div.three-fourth, div.one-fourth{position:relative; margin-left:3%; float:left; margin-bottom:1.55em}
+div.one-half:first-child, div.one-third:first-child, div.two-third:first-child, div.three-fourth:first-child, div.one-fourth:first-child, .first{margin-left:0 !important; clear:left;}
+
+#main-content .features, #main-content .portfolio {
+	clear:both;
+	float:left;
+	margin-bottom:50px;
+}
+
+footer {
+	clear:both;
+	border-top:1px solid #e5e4e4;
+	padding:20px 0;
+}
+footer .copyright, 
+footer .footer-nav{
+	margin-bottom:30px; 
+}
+footer .copyright {
+	float:left;
+}
+footer .footer-nav {
+	float:right;
+}
+footer .footer-nav li {
+	display:inline;
+	margin-left:10px;
+	list-style:none;
+}
+footer .footer-nav li a, footer .copyright a {
+	color:#444444;
+}
+footer .footer-nav li a:hover, footer .copyright a:hover{
+	color:#91c967;
+}
+footer .copyright a {
+	font-weight:bold;
+}
+
+
+/*Responsive Structure*/
+@media handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 767px)  {
+body{ padding:0 20px; }
+header .main-nav {
+	margin-left:4%;
+	
+}
+}
+
+
+@media handheld and (max-width: 479px), screen and (max-device-width: 479px), screen and (max-width: 479px)  {
+body{  }
+
+header #logo {
+	/*text-indent:-99999999px;*/
+	width:111px;
+	height:30px;
+	float:none;
+	margin:0 auto 40px; auto;
+}
+header #logo a {
+	/*background:url(../images/logo.png) no-repeat;*/
+	display:block;
+	width:111px;
+	height:30px;
+}
+header {
+	border-bottom:none;
+}
+
+header .main-nav{
+	width:100%;
+	margin-left:0;
+}
+header .main-nav ul {
+	width:100%;
+}
+header .main-nav ul li, header .main-nav ul > li.last{
+	display:block;
+	float:none;
+	text-align:center;
+	width:100%;
+}
+header .main-nav ul li a{
+	padding:4px 0;
+	background:#e4e4e4;
+	display:block;
+	margin-bottom:4px;
+}
+div.columns{ width:100%; }
+div.one-half, div.one-third, div.two-third, div.three-fourth, div.one-fourth{
+	margin-left:0;
+	width:100%;
+}
+
+header #searchform {
+	float:right;
+	margin-top:10px;
+	width:100%;
+	margin-bottom:20px;
+} 
+header #searchform #s {
+	border:1px solid #cecece;
+	width:16px;
+	-webkit-border-radius:40px;
+	-moz-border-radius:40px;
+	-o-border-radius:40px;
+	border-radius:40px;
+	padding:10px;
+	background:#e2e2e2 url(../images/magnify.png) no-repeat  50% 50%;
+	-webkit-transition-duration: 400ms; -webkit-transition-property: width, background; -webkit-transition-timing-function: ease; -moz-transition-duration: 400ms; -moz-transition-property: width, background;	-moz-transition-timing-function: ease; -o-transition-duration: 400ms; -o-transition-property: width, background; -o-transition-timing-function: ease;
+	cursor:pointer;
+	color:#4b4b4b;
+	text-indent:-999999px;
+}
+header #searchform #s:focus {
+	outline:none;
+	background:#e2e2e2 url(../images/magnify.png) no-repeat 4% 50%;
+	padding-left:34px;
+	width:90%;
+	text-indent:0px;
+	
+}
+
+div.one-third, 
+div.one-fourth,
+.copyright,
+.footer-nav{
+	width:100%;
+	float:none;
+}
+.copyright,
+.footer-nav {
+	text-align:center;
+}
+
+#main-content .text-intro h2 {
+	font-size:30px;
+}
+
+#main-content .text-intro p {
+	text-align: center;
+}
+
+}
+
