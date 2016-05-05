@@ -9,8 +9,13 @@
   "author": "chris hummel",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.9.1",
     "express": "^4.13.4",
     "forever": "^0.15.1",
+    "google-search": "0.0.3",
+    "path": "^0.12.7",
+    "query-string": "^4.1.0",
+    "querystring": "^0.2.0",
     "url": "^0.11.0"
   }
 }

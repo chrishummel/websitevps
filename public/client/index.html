@@ -6,7 +6,7 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
 <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
 
-<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 <!--[if lt IE 9]>
@@ -30,31 +30,32 @@ $(window).load(function() {
     	<ul>
         	<li>
                 <ul>
-                    <li><a href="index.html" class="selected">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Github</a></li>
+                    <li><a href="/" class="selected top-menu">Home</a></li>
+                    <li><a href="/projects" class="top-menu">Projects</a></li>
+                    <li><a href="http://github.com/chrishummel" class="top-menu">Github</a></li>
                 </ul>
             </li>
             <li class="last">
                 <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="/aboutme" class="top-menu">About Me</a></li>
+                    <li><a href="/contact" class="top-menu">Contact</a></li>
+                    <li><a href="http://linkedin.com/in/chrishummelj" class="top-menu">LinkedIn</a></li>
                 </ul>
             </li>
         </ul>
     </nav>
-    <form action="#" method="get" id="searchform">
-    	<input type="text" id="s">
+    <form action="search/" method="get" id="searchform">
+    	<input type="text" id="s" name="query">
     </form>
 </header>
 
 <div id="slider-container">
 	<div class="flexslider clearfix">
         <ul class="slides">
-          <li><a href="#"><img src="images/DSC_0141 (1).jpg" alt="Image" /></a></li>
-          <li><a href="#"><img src="images/slider_1.jpg" alt="Image" /></a></li>
-          <li><a href="#"><img src="images/slider_2.jpg" alt="Image" /></a></li>
+          <li><a href="#"><img src="images/Innsbruck_Photo.jpg" alt="Image" /></a></li>
+          <li><a href="#"><img src="images/Hallstat_Photo.jpg" alt="Image" /></a></li>
+          <li><a href="#"><img src="images/Birds_Photo.jpg" alt="Image" /></a></li>
+          <li><a href="#"><img src="images/Angel_Photo.jpg" alt="Image" /></a></li>
         </ul>
       </div>
 </div> 
@@ -90,7 +91,7 @@ $(window).load(function() {
     
     <div class="columns portfolio">
     	<div class="one-fourth first">
-        	<h4>Latest Work</h4>
+        	<h4>Projects</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae semper est. Proin ornare eleifend orci, id dignissim velit eleifend feugiat. </p>
             <p><a href="#" class="more">Read More</a></p>
         </div>
@@ -109,15 +110,15 @@ $(window).load(function() {
 
 <footer>
 	<ul class="footer-nav">
-    	<li><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+    	<li><a href="/">Home</a></li>
+        <li><a href="/aboutme">About Me</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/contacts">Contact</a></li>
     </ul>
 	<div class="copyright"><small>Chris Hummel</small></div>
     
 </footer>
-
+<script src="js/scripts.js"></script>
 </body>
 </html>
 	

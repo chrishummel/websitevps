@@ -1,16 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
-/*
-*
-Author: Joefrey Mahusay 
-Website: webdesignhabits.com
-Template Name: Mighty
-*
-*/
 
-/*--------------------------
-RESET
----------------------------*/
 html, body, div, span, applet, object, iframe, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
 a, abbr, acronym, address, big, cite, code, 
@@ -107,6 +97,11 @@ header {
 	min-height:100px;
 	margin-bottom:40px;
 }
+
+.aboutmeheader {
+	margin-bottom: 5px;
+}
+
 header #logo {
 	
 	width:111px;
@@ -190,6 +185,10 @@ header #searchform #s:focus {
 	padding:20px 0; 
 	margin-bottom:40px;
 }
+#main-content .aboutme-intro {
+	padding-top: 10px
+}
+
 #main-content .text-intro h2 {
 	font-size:40px;
 	color:#606060;
@@ -350,6 +349,7 @@ div.one-fourth,
 #main-content .text-intro p {
 	text-align: center;
 }
+
 
 }
 
