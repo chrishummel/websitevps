@@ -91,10 +91,15 @@ header, #slider-container, #main-content, footer {
 	margin:0 auto; /* make the container to center */
 	max-width:978px; /* responsive/flexible */
 }
+
+#slider-container {
+	max-width: 978px;
+}
+
 header {
 	margin-top:68px;
 	border-bottom:1px solid #e5e4e4;
-	min-height:100px;
+	min-height:75px;
 	margin-bottom:10px;
 }
 
