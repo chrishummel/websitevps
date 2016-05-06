@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 
 html, body, div, span, applet, object, iframe, 
@@ -95,7 +95,7 @@ header {
 	margin-top:68px;
 	border-bottom:1px solid #e5e4e4;
 	min-height:100px;
-	margin-bottom:40px;
+	margin-bottom:10px;
 }
 
 .aboutmeheader {
@@ -142,11 +142,11 @@ header .main-nav ul li a.selected {
 } 
 
 /*for Search*/
-header #searchform {
+header #searchbox_013726220345331692581\:cyaqd-_wloa {
 	float:right;
 	margin-top:10px;
 } 
-header #searchform #s {
+header #searchbox_013726220345331692581\:cyaqd-_wloa #s {
 	border:1px solid #cecece;
 	width:16px;
 	-webkit-border-radius:40px;
@@ -160,13 +160,19 @@ header #searchform #s {
 	color:#4b4b4b;
 	text-indent:-999999px;
 }
-header #searchform #s:focus {
+header #searchbox_013726220345331692581\:cyaqd-_wloa #s:focus {
 	outline:none;
 	background:#e2e2e2 url(../images/magnify.png) no-repeat 10% 50%;
 	padding-left:34px;
 	width:100px;
 	text-indent:0px;
 	
+}
+
+#space {
+	min-height: 30px;
+	border-width: 1px;
+	margin: 20px;
 }
 
 
@@ -186,7 +192,8 @@ header #searchform #s:focus {
 	margin-bottom:40px;
 }
 #main-content .aboutme-intro {
-	padding-top: 10px
+	padding-top: 10px;
+	border-bottom: none;
 }
 
 #main-content .text-intro h2 {
@@ -349,7 +356,6 @@ div.one-fourth,
 #main-content .text-intro p {
 	text-align: center;
 }
-
 
 }
 

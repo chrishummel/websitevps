@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.9.1",
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
     "forever": "^0.15.1",
     "google-search": "0.0.3",

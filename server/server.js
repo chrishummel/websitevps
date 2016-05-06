@@ -1,7 +1,7 @@
 var url = require('url');
 var express = require('express');
 var search = require('./search');
-var path = require('path')
+var path = require('path');
 
 var app = express();
 
@@ -24,8 +24,6 @@ app.get("/contact", function(req,res){
   res.sendFile(path.resolve(__dirname + '/../public/client/contact.html'))
 })
 
-
-app.get("/search", search)
 
 
 app.get("/", function(req,res){

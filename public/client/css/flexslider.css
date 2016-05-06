@@ -58,7 +58,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .flex-direction-nav li a.next:hover, .flex-direction-nav li a.prev:hover{opacity: 1; filter:alpha(opacity=100);}
 
 /* Control Nav */
-.flex-control-nav {width: 100%; position: absolute; bottom: -33px; text-align: center; }
+.flex-control-nav {width: 100%; position: absolute; bottom: -33px; text-align: center; padding-top: 10px; margin-bottom: -10px;}
 .flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
 .flex-control-nav li:first-child {margin: 0;}
 .flex-control-nav li a {width: 11px; height: 11px; display: block; background: url(../images/bg_control_nav.png) no-repeat 0 0; cursor: pointer; text-indent: -9999px;}
