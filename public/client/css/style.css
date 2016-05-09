@@ -114,7 +114,7 @@ header #logo {
 	float:left;
 }
 header #logo a {
-	
+	margin-top: -30px;
 	display:block;
 	width:111px;
 	height:30px;
@@ -282,7 +282,7 @@ header #logo {
 	width:111px;
 	height:30px;
 	float:none;
-	margin:0 auto 40px; auto;
+	margin:0 auto 80px; auto;
 }
 header #logo a {
 	/*background:url(../images/logo.png) no-repeat;*/
