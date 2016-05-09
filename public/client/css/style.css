@@ -201,6 +201,10 @@ header #searchbox_013726220345331692581\:cyaqd-_wloa #s:focus {
 	border-bottom: none;
 }
 
+#main-content .projects-intro {
+	margin-bottom: 5px;
+}
+
 #main-content .text-intro h2 {
 	font-size:40px;
 	color:#606060;

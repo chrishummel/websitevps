@@ -19,13 +19,6 @@ app.get("/projects", function(req,res){
   res.sendFile(path.resolve(__dirname + '/../public/client/projects.html'))
 })
 
-app.get("/contact", function(req,res){
-  res.status(200);
-  res.sendFile(path.resolve(__dirname + '/../public/client/contact.html'))
-})
-
-
-
 app.get("/", function(req,res){
   res.status(200);
   res.sendFile('index')
