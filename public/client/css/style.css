@@ -202,7 +202,9 @@ header #searchbox_013726220345331692581\:cyaqd-_wloa #s:focus {
 }
 
 #main-content .projects-intro {
+	padding-top: 10px;
 	margin-bottom: 5px;
+	border-bottom: none;
 }
 
 #main-content .text-intro h2 {
