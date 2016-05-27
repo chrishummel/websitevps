@@ -282,7 +282,8 @@ header #logo {
 	width:111px;
 	height:30px;
 	float:none;
-	margin:0 auto 80px; auto;
+	margin:0 auto 150px; auto;
+	font-size: 45px;
 }
 header #logo a {
 	/*background:url(../images/logo.png) no-repeat;*/
@@ -308,10 +309,11 @@ header .main-nav ul li, header .main-nav ul > li.last{
 	width:100%;
 }
 header .main-nav ul li a{
-	padding:4px 0;
+	padding:20px 0;
 	background:#e4e4e4;
 	display:block;
-	margin-bottom:4px;
+	margin-bottom:5px;
+	font-size: 28px;
 }
 div.columns{ width:100%; }
 div.one-half, div.one-third, div.two-third, div.three-fourth, div.one-fourth{
@@ -358,6 +360,7 @@ div.one-fourth,
 .copyright,
 .footer-nav {
 	text-align:center;
+	font-size: 30px;
 }
 
 #main-content .text-intro h2 {
@@ -366,6 +369,15 @@ div.one-fourth,
 
 #main-content .text-intro p {
 	text-align: center;
+}
+
+header #searchbox_013726220345331692581\:cyaqd-_wloa {
+	float: none;
+	text-align: center;
+}
+
+footer .footer-nav li a, footer .copyright a {
+	line-height: 40px;
 }
 
 }
